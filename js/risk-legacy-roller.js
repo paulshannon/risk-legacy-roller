@@ -80,7 +80,7 @@ Battle.prototype.resolve = function () {
             return [attacker_loss, this.defender.armies, true];
         }
     }
-    return [attacker_loss, defender_loss, stop, message];
+    return [attacker_loss, defender_loss, stop];
 }
 
 function Territory(faction, fortified, scar, armies) {
